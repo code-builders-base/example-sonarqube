@@ -1,0 +1,1 @@
+## Exemplo de configuração inicial de um servidor Sonarqube com docker
