@@ -1,12 +1,12 @@
-# Exemplo de configuração inicial de um servidor Sonarqube com docker
+# Example of initial configuration of a Sonarqube server with docker
 
-## Tecnologias
+## Technologies
 - Sonarqube 9.9.3-community
 - Postgres 16.1
 
-## Preparação do ambiente
-- É necessário ter o Docker e o Docker Compose instalados.
-- Para criação correta dos volumes do docker definidos no arquivo 'docker-compose.yml' é necessário que sejam criadas as pastas conforme descrito abaixo.
+## Environment preparation
+- You must have Docker and Docker Compose installed.
+- To correctly create the docker volumes defined in the 'docker-compose.yml' file, the folders must be created as described below.
 ```
 example-sonarqube
 |   docker-compose.yml
@@ -22,9 +22,9 @@ example-sonarqube
     |__ temp
 ```
 
-## Para executar
-- Abrir o terminal dentro da pasta example-sonarqube e executar o comando abaixo.
+## To execute
+- Open the terminal inside the example-sonarqube folder and run the command below.
 ``` bash
 docker compose up --build
 ```
-- Abrir a url 'http://localhost:9000' no navegador e terá acesso ao Sonarqube.
+- Open the url 'http://localhost:9000' in the browser and you will have access to Sonarqube.
